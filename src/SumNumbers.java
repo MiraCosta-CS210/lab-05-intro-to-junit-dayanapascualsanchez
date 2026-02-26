@@ -24,7 +24,7 @@ public class SumNumbers {
      *   If the sum is an odd number, then return 0 for “false.”
      */
     public int sumIsEven(int a, int b) {
-        if((a+b) % 2 == 2) {
+        if((a+b) % 2 == 0) { // if there's no remainder (0) after being divided by 2 then it's even
             return 1;
         } else {
             return 0;
